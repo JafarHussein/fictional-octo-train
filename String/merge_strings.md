@@ -1,0 +1,4 @@
+# You are given two strings, example word1="abc" and word2="abcdefgh", you are asked to merge the characters of the strings alternatively, if the two words are not of the same length, merge them and then remaining characters should be merged at the end
+step 1 - Create a stack for both words, where the last characters of the words are at the end of the string
+step 2 - While stack1 is not empty pop a character from it and merge to the combined string, check if stack 2 is empty, if its not pop the character and merge to the combined string
+step 3 - After you exist the first while loop, check if the stack2 is empty or not, if not pop the characters and append them to the combined string
